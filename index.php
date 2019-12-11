@@ -4,7 +4,7 @@
 		<?php include "includes/navigation.php"; ?>
 
 
-		<section class="hero bg-overlay" id="hero" data-bg="img/laptop-coffee.jpg">
+		<section class="hero bg-overlay" id="hero" data-bg="img/people.jpg">
 
 			<?php include "includes/landing.php"; ?>
 

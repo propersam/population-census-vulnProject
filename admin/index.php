@@ -6,7 +6,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
-        <?php include "includes/admin_navigation.php" ?>
+        <?php $page=1; include "includes/admin_navigation.php" ?>
 
     </nav>
 
@@ -16,22 +16,43 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            current Page Name here
-                            <small>current page Subheading</small>
+
+
+                
+                    <div class='col-lg-12'>
+                        <h1 class='page-header'>
+                            Dashboard Page
+                            <small>main dashboard page</small>
                         </h1>
-                        <ol class="breadcrumb">
+                        <ol class='breadcrumb'>
                             <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                <i class='fa fa-dashboard'></i>  <a href='index.php'>Dashboard</a>
                             </li>
-                            <li class="active">
-                                <i class="fa fa-file"></i>  Current Page Name here
+                            <li class='active'>
+                                <i class='fa fa-file'></i>
                             </li>
                         </ol>
                     </div>
+                
+
+
+
+
                 </div>
                 <!-- /.row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             </div>
             <!-- /.container-fluid -->

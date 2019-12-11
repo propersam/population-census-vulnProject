@@ -9,7 +9,7 @@
 							</div>
 							<div class="desc">
 
-							<?php include "login.php"; ?>
+							<?php include "admin_login.php"; ?>
 
 								<h2 class = "text-center"> Admin Login </h2>
 								<form class="contact row" method="post" action="">
@@ -50,9 +50,10 @@
 								<i class="ion-paintbrush"></i>
 							</div>
 							<div class="desc">
+							<?php include "family_login.php"; ?>
 							<h2 class = "text-center"> Family Head Login </h2>
 
-							<form class="contact row" method="post" action="includes/login.php">
+							<form class="contact row" method="post" action="">
 							
 								<div class="form-group col-12">
 									<input type="text" class="form-control" placeholder="FAMILY LOGIN_ID" name="family_id" required>
@@ -63,7 +64,7 @@
 								</div>
 								
 								<div class="form-group col-12 mt-2">
-									<input class="btn btn-primary" type="submit" name="admin_login" value="Admin Login">			
+									<input class="btn btn-primary" type="submit" name="family_login" value="Family Login">			
 								</div>
 							</form>
 							</div>

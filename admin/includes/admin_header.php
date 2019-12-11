@@ -1,6 +1,5 @@
 <?php
-ob_start();
-session_start();
+
 include "../includes/db.php";
 include "../includes/functions.php";
 
@@ -26,6 +25,7 @@ $admin_header = <<< End
 
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="../css/stisla.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
